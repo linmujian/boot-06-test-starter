@@ -14,6 +14,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello(){
         String he = helloService.sayHello("小林");
+        System.out.println("version 2.0");
         return he;
     }
 
